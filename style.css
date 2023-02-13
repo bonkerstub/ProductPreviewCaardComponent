@@ -1,0 +1,84 @@
+body {
+    background-color: hsl(30, 38%, 92%);
+    font-family: "Monseratt";
+}
+
+.picture-card {
+    background-color: hsl(0, 0%, 100%);
+}
+
+.centerish {
+    margin-top: auto;
+    margin-bottom: auto;
+    height:400px;
+}
+
+@media screen and (min-width: 375px) {
+    .picture-item {
+        border-top-left-radius: 0.375rem;
+        border-bottom-left-radius: 0.375rem;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+    .description {
+        border-top-right-radius: 0.375rem;
+        border-bottom-right-radius: 0.375rem;   
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+
+    
+}
+
+@media screen and (max-width: 375px) {
+    .picture-item {
+        border-top-left-radius: 0.375rem;
+        border-top-right-radius: 0.375rem;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+    .description {
+        border-bottom-right-radius: 0.375rem;
+        border-bottom-left-radius: 0.375rem; 
+        border-top-right-radius: 0;
+        border-top-left-radius: 0;  
+    }
+    
+}
+
+h1 {
+    font-family: 'Fraunces';
+    font-weight: 1000;
+}
+h6 {
+    margin-bottom: 20px;
+    color: hsl(228, 12%, 48%);
+    letter-spacing: 4px;
+    font-size: 14px;
+}
+
+.description {
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+}
+
+.price {
+    font-family: 'Fraunces';
+    font-weight: 1000;
+    font-size: 30px;
+    color: hsl(158, 36%, 37%);
+}
+
+.discount {
+    color: hsl(228, 12%, 48%)
+
+}
+
+button {
+    font-family: 'Fraunces';
+    margin-top: 10px;
+}
+
+i {
+    margin-right: 15px;
+}
